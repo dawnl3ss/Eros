@@ -10,6 +10,6 @@ int 0x80
 dec bl
 mov al,1
 int 0x80
-string :
+string:
 call code
 db 'thats an example for an assembly code'
